@@ -6,6 +6,6 @@ pages:
   - mv .public build
   artifacts:
     paths:
-    - build
+    - public
   only:
   - c-r-pwa-0.6.0
