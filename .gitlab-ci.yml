@@ -3,9 +3,9 @@ pages:
   script:
   - mkdir .public
   - cp -r * .public
-  - mv .public public
+  - mv .public build
   artifacts:
     paths:
-    - public
+    - build
   only:
   - c-r-pwa-0.6.0
