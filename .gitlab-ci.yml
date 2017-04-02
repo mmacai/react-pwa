@@ -3,7 +3,7 @@ pages:
   script:
   - mkdir .public
   - cp -r * .public
-  - mv .public build
+  - mv .public public
   artifacts:
     paths:
     - public
