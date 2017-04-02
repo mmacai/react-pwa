@@ -3,7 +3,7 @@ import { Link } from 'react-router';
 import logo from './logo.svg';
 import './App.css';
 
-class App extends Component {
+class Detail extends Component {
   render() {
     return (
       <div className="App">
@@ -12,12 +12,12 @@ class App extends Component {
           <h2>Welcome to React</h2>
         </div>
         <p className="App-intro">
-          This is main page
+          This is detail page
         </p>
-        <Link to="/detail">Go to detail page</Link>
+        <Link to="/">Go to main page</Link>
       </div>
     );
   }
 }
 
-export default App;
+export default Detail;
