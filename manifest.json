@@ -3,8 +3,8 @@
   "name": "My PWA",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64",
+      "src": "openslava.png",
+      "sizes": "192x192",
       "type": "image/png"
     }
   ],
